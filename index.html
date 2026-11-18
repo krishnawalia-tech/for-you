@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Surprise ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+    <div class="hearts-container" id="hearts"></div>
+
+    <main class="main-container">
+
+        <!-- Welcome Screen -->
+        <section class="screen active" id="welcome-screen">
+
+            <div class="top-heart">♡</div>
+
+            <div class="welcome-card">
+                <div class="small-label">A LITTLE SOMETHING FOR YOU</div>
+
+                <h1>Hey, You! <span>♡</span></h1>
+
+                <p class="welcome-text">
+                    I've made something special for you.
+                    Are you ready for a little surprise?
+                </p>
+
+                <div class="cute-decoration">
+                    <span>♡</span>
+                    <span>✦</span>
+                    <span>♡</span>
+                </div>
+
+                <button class="main-button" onclick="startQuiz()">
+                    Let's Begin <span>→</span>
+                </button>
+
+                <div class="bottom-note">made with a little love ♡</div>
+            </div>
+
+        </section>
+
+
+        
+        <!-- Question Screen -->
+        <section class="screen" id="question-screen">
+
+            <div class="quiz-card">
+
+                <div class="quiz-top">
+                    <span class="step-label">A LITTLE GAME FOR YOU</span>
+                    <span class="step-count" id="step-count">01 / 05</span>
+                </div>
+
+                <div class="progress-track">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+
+                <div class="question-decoration">♡</div>
+
+                <div class="question-number" id="question-number">
+                    QUESTION 1
+                </div>
+
+                <h2 id="question-title">Question 1</h2>
+
+                <p class="question-subtitle">
+                    Choose whatever feels right ♡
+                </p>
+
+                <div class="options-container" id="options-container">
+
+                </div>
+
+                <div class="quiz-bottom">
+
+                    <span class="little-hint">
+                        Choose one ♡
+                    </span>
+
+                    <button
+                        class="main-button next-button"
+                        id="next-button"
+                        onclick="nextQuestion()"
+                        disabled
+                    >
+                        Next <span>→</span>
+                    </button>
+
+                </div>
+
+                <p class="error-message" id="error-message">
+                    Choose an answer first ♡
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Final Screen -->
+        <section class="screen" id="final-screen">
+
+            <div class="final-card">
+
+                <div class="final-heart">♥</div>
+
+                <div class="small-label">YOU MADE IT!</div>
+
+                <h1>That's All! <span>♡</span></h1>
+
+                <div class="final-decoration">✧･ﾟ: *✧･ﾟ:*</div>
+
+                
+                <div class="final-photo">
+                    <img src="./image/WhatsApp Image her pic.jpeg" alt="My Cutuu Gunnu">
+                </div>
+
+                
+                <div class="paragraph-box">
+
+                    <img class="final-photo-inline"
+                        src="./image/WhatsApp Image her pic.jpeg"
+                        alt="My Cutuu Gunnu">
+
+                    <p>
+                        Sooo, first of all, thank you for being a part of this little surprise! 🥹💕
+                        I know it's only been a few days since we started talking, and we still
+                        have so much to know about each other, but honestly, I'm really glad we did.
+                        There's something so cute about getting to know someone new, waiting for
+                        their texts, sharing random little things and slowly becoming a part of
+                        each other's day.
+
+                        I don't know where this little connection will take us, but I'd genuinely
+                        love to make it something beautiful. I hope we get to share lots of silly
+                        conversations, endless laughter, random late-night talks and countless
+                        cute memories together.
+
+                        And hey, never stop being your adorable self, because you really do have
+                        a special little way of making things feel nice. Take care of yourself,
+                        keep smiling and remember that there's someone here who genuinely enjoys
+                        talking to you.
+
+                        Sending you the biggest virtual hug and lots of loveee! 🫶🏻🎀
+
+                        My Cutuu Gunnu, stay this cute always! ❤️
+                    </p>
+
+                </div>
+
+                <div class="final-footer">
+                    <div class="special-name">My Cutuu Gunnu ♡</div>
+                    Made with love, just for you
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
